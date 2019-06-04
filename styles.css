@@ -11,15 +11,18 @@ html,body{
     font-size: 40px;
 }
 
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(109, 3, 3);
-    position: fixed;
-    top: 0;
-    width: 100%;
   }
   
   li {
@@ -38,36 +41,44 @@ ul {
   li a:hover{
       color: rgb(83, 77, 77);
   }
+
   main{
       padding-top: 20px;
       height: 100%;
   }
+  
   #welcome-section{
     background-color: #e0ebe8;
     width: 100%;
-    margin: auto; 
-    padding-top: 25px;
     color: black;
+    padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
   }
+
   .About p{
     margin: auto;    
     padding-left: auto;
     max-width: 600px;
-    
   }
+
   #my-picture{
     border-radius: 50%;
     margin-left: 30%;
     height: 200px;
   }
+
   #projects{
     width: 100%;
     margin: auto;
   }
+
   div img{
     width: 200px;
     height: 150px;
   }
+
   .project-tile{
     width: 200px;
     height: 190px;
@@ -75,9 +86,11 @@ ul {
     border: 1px solid #000;
     border-radius: 3px;
   }
+
   .project-tile p{
     border: 1px solid;
   }
+
   .fab{
     width: 100px;
   }
@@ -86,6 +99,7 @@ ul {
     background-color: white;
 
   }
+
   @media screen and (max-width: 768px) {
    #navbar li{
   
